@@ -90,8 +90,7 @@ android:layout_width="wrap_content" android:layout_height="wrap_content" android
 
 </br>
 </br> 
-</br>
-</br> 
+
 
 ## OUTPUT
 ![output](./static/img/o1.png)
