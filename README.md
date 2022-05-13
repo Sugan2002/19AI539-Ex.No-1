@@ -96,12 +96,9 @@ World!" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLef
 
 ```
 
-</br>
-</br>
-</br>
-
 ## OUTPUT
 ![output](./static/img/o1.png)
+</br>
 </br>
 ![output](./static/img/o2.png)
 ![output](./static/img/o3.png)
