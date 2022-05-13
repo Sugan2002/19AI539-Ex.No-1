@@ -40,11 +40,13 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity { @Override
 protected void onCreate(Bundle savedinstanceState) {
 super.onCreate(savedinstanceState); setContentView(R.layout.activity_main);
-Toast toast=Toast.mak eText(getApplictaionContext(),"OnCrea te Executed",Toast.LENGTH_LONG); toast.show();
+Toast toast=Toast.mak eText(getApplictaionContext(),"OnCrea te Executed",Toast.LENGTH_LONG); 
+toast.show();
 }
 
 protected void onStart(){ super.onStart();
-Toast toast=Toast.makeText(getApplicationContext(),"OnStart Executed",Toast.LENGTH_LONG); toast.show();
+Toast toast=Toast.makeText(getApplicationContext(),"OnStart Executed",Toast.LENGTH_LONG); 
+toast.show();
 }
 
 protected void onResume(){ super.onResume();
@@ -54,19 +56,23 @@ toast.show();
 }
 
 protected void onPause(){ super.onPause();
-Toast toast=Toast.makeText(getApplicationContext(),"OnPause Executed",Toast.LENGTH_LONG); toast.show();
+Toast toast=Toast.makeText(getApplicationContext(),"OnPause Executed",Toast.LENGTH_LONG); 
+toast.show();
 }
 
 protected void onStop(){ super.onStop();
-Toast toast=Toast.makeText(getApplicationContext(),"OnStop Executed",Toast.LENGTH_LONG); toast.show();
+Toast toast=Toast.makeText(getApplicationContext(),"OnStop Executed",Toast.LENGTH_LONG); 
+toast.show();
 }
 
 protected void onRestart(){ super.onRestart();
-Toast toast=Toast.makeText(getApplicationContext(),"OnRestart Executed",Toast.LENGTH_LONG); toast.show();
+Toast toast=Toast.makeText(getApplicationContext(),"OnRestart Executed",Toast.LENGTH_LONG); 
+toast.show();
 }
 
 protected void onDestroy(){ super.onDestroy();
-Toast toast=Toast.makeText(getApplicationContext(),"OnDestroy Executed",Toast.LENGTH_LONG); toast.show();
+Toast toast=Toast.makeText(getApplicationContext(),"OnDestroy Executed",Toast.LENGTH_LONG); 
+toast.show();
 }
 }
 
@@ -74,13 +80,16 @@ Toast toast=Toast.makeText(getApplicationContext(),"OnDestroy Executed",Toast.LE
 activity_main.xml
 
 <?xml version=" 1. 0" encoding=" utf-8"? >
-<androidx.constraintlayout.widget.Constraintlayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.Constraintlayout xmlns:android="http://schemas.android.com/
+apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
  
 android:layout_height="match_parent" tools:context=".MainActivity">
 
 <TextView
-android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello World!" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello
+World!" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf=
+"parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -90,13 +99,10 @@ android:layout_width="wrap_content" android:layout_height="wrap_content" android
 </br>
 </br>
 </br>
-</br>
-</br>
-</br>
-
 
 ## OUTPUT
 ![output](./static/img/o1.png)
+</br>
 ![output](./static/img/o2.png)
 ![output](./static/img/o3.png)
 ![output](./static/img/o4.png)
