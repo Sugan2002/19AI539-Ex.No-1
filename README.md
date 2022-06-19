@@ -28,8 +28,8 @@ Step 7: Save and run the application.
 ```java
 /*
 Program to print the text “Hello World”.
-Developed by:
-Registeration Number :
+Developed by: P.Suganya
+Registeration Number : 212220230049
 */
 
 MainActivity.java
