@@ -1,4 +1,6 @@
-# <p align="center"> Ex.No-1 To create a HelloWorld Activity using all lifecycles methods to display messages </P>
+## EX NO : 01
+## Date  : 29/03/2022
+# <p align="center"> To create a HelloWorld Activity using all lifecycles methods to display messages </P>
 
 ## AIM:
 
